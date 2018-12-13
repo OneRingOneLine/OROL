@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Media attention</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/faqstyle.css" type="text/css" media="all" />
+<link href="css/single.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/contactstyle.css" type="text/css" media="all" />
+<!-- news-css -->
+<link rel="stylesheet" href="news-css/news.css" type="text/css" media="all" />
+<!-- //news-css -->
+<!-- list-css -->
+<link rel="stylesheet" href="list-css/list.css" type="text/css" media="all" />
+<!-- //list-css -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!---<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>--->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="w3layouts_logo">
+				<a href="index.html"><h1>一圈<span>一线</span></h1></a>
+			</div>
+			<div class="w3_search">
+				<form action="#" method="post">
+					<input type="text" name="搜索" placeholder="搜索" required="">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+			<div class="w3l_sign_in_register">
+				<ul>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>13517088684</li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal">Sign in</a></li>
+				</ul>
+			</div>
+			<div class="nav-con fl">
+				<ul>
+						<li report-id="playpage_huahua" class="nav-item hbili">
+							<a id="lbtExit" href="news.html" style="text-decoration:underline;">中文</a></li>
+						<li report-id="Webtab_click_audio" class="nav-item mbili">
+							<a id="lbtExit" href="newsE.html" style="text-decoration:underline;">English</a></li>
+						<li report-id="playpage_game" class="nav-item game">
+							<a id="lbtExit" href="newsJ.html" style="text-decoration:underline;">日本語</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Login & Registration
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="w3_login_module">
+							<div class="module form-module">
+								<div class="toggle"><i class="fa fa-times fa-pencil"></i>
+								<div class="tooltip">Click on me</div>
+								</div>
+								<div class="form">
+								<h3>Login to your account</h3>
+								<form action="#" method="post">
+									<input type="text" name="Username" placeholder="用户名" required="">
+									<input type="password" name="Password" placeholder="密码" required="">
+									<input type="submit" value="登录 ">
+								</form>
+								</div>
+								<div class="form">
+								<h3>Register a new account</h3>
+								<form action="#" method="post">
+									<input type="text" name="Username" placeholder="用户名" required="">
+									<input type="password" name="Password" placeholder="密码" required="">
+									<input type="text" name="Phone" placeholder="手机号码" required="">
+									<input type="submit" value="注册">
+								</form>
+								</div>
+								<div class="cta"><a href="#">Forgot your password?</a></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('.toggle').click(function(){
+		  // Switches the Icon
+		  $(this).children('i').toggleClass('fa-pencil');
+		  // Switches the forms  
+		  $('.form').animate({
+			height: "toggle",
+			'padding-top': 'toggle',
+			'padding-bottom': 'toggle',
+			opacity: "toggle"
+		  }, "slow");
+		});
+	</script>
+<!-- //bootstrap-pop-up -->
+<!-- nav -->
+	<div class="movies_nav">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Handover navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li class="w3_home_act"><a href="indexE.html">Homepage</a></li>
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Stick video<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<li>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="onetoneE.html">Stage performance </a></li>
+												<li><a href="onettwoE.html">Stick Teaching </a></li>
+												<li><a href="onetthreeE.html">Self video </a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</li>
+							<li><a href="newsE.html">Stick News(Media Attention)</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Stick culture <b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<li>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="history.html">historical background</a></li>
+												<li><a href="famous.html">World celebrities</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+		</div>
+	</div>
+<!-- //nav -->
+<!-- <div class="general_social_icons">
+	<nav class="social">
+		<ul>
+			<li class="w3_twitter"><a href="#">Twitter <i class="fa fa-twitter"></i></a></li>
+			<li class="w3_facebook"><a href="#">Facebook <i class="fa fa-facebook"></i></a></li>
+			<li class="w3_dribbble"><a href="#">Dribbble <i class="fa fa-dribbble"></i></a></li>
+			<li class="w3_g_plus"><a href="#">Google+ <i class="fa fa-google-plus"></i></a></li>				  
+		</ul>
+  </nav>
+</div> -->
+<!-- faq-banner -->
+	<div class="faq">
+			<div class="container">
+				<div class="agileits-news-top">
+					<ol class="breadcrumb">
+					  <li><a href="indexE.html">Homepage</a></li>
+					  <li class="active">Stick News(Media Attention)</li>
+					</ol>
+				</div>
+				<div class="agileinfo-news-top-grids">
+					<div class="col-md-8 wthree-top-news-left">
+						<div class="wthree-news-left">
+							<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+								<ul id="myTab" class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active"><a href="#home1" id="home1-tab" role="tab" data-toggle="tab" aria-controls="home1" aria-expanded="true">The latest media </a></li>
+									<li role="presentation"><a href="#w3bsd" role="tab" id="w3bsd-tab" data-toggle="tab" aria-controls="w3bsd">Hot media </a></li>
+								</ul>
+								<div id="myTabContent" class="tab-content">
+									<div role="tabpanel" class="tab-pane fade in active" id="home1" aria-labelledby="home1-tab">
+										<div class="wthree-news-top-left">
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-5 wthree-news-img">
+													<a href="news-single.html"><img src="img/n1.jpg" alt="" /></a>
+												</div>
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">Manway created the first Chinese hero movie (using nunchakus?)</a></h5>
+													<p>According to Deadline, Manwei Pictures is developing a single movie of Chinese hero Shang-Chi. 
+													Shang Qi is proficient in long sticks, nunchaku and other martial arts.            The inspiration 
+													of role design comes from Bruce Lee, a Chinese martial artist. Movie plots will keep pace with the
+													 times, "to avoid some Western stereotypes of Chinese," Manway is also looking for Asian and Asian 
+													 directors. </p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 04/12/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">The Fourth Thousand-Person Grade Examination Conference </a></h5>
+													<p>The 4th 1000-person Grade Examination Conference was successfully held in Wuhan Wuhan Wuhan Iron
+													 and Steel Stadium. The guests come from all over the country! Players come from all over the world,
+													  including China, Korea, Japan, Hong Kong, Macao and Taiwan.</p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 16/06/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane fade" id="w3bsd" aria-labelledby="w3bsd-tab">
+										<div class="wthree-news-top-left">
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">The 4th Malaysian International Martial Arts Festival was held in Kuala Lumpur, Malaysia</a></h5>
+													<p>More than 2,000 martial arts players from China, Dubai, the United States, Britain, India, 
+													Singapore and other countries competed. Chaozhou boy Shelder won two championships.</p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 04/12/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html"> Double Nunchaku in the 7th Macao International Martial Arts Festival </a></h5>
+													<p> 	Liu Zhiwei, a post-90s countryside boy in Inner Mongolia, competed with more than 200 competitors in 
+													the same field and finally stood out. 
+													           All-round champion of M5 (single) and M5 (double). "This is the world champion in martial arts. </p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 16/06/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="clearfix"> </div>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 wthree-news-right">
+						<!-- news-right-top -->
+						<div class="news-right-top">
+							<div class="wthree-news-right-heading">
+								<h3>Real time news</h3>
+							</div>
+							<div class="wthree-news-right-top">
+								<div class="news-grids-bottom">
+									<!-- date -->
+									<div id="design" class="date">
+										<div id="cycler">   
+											<div class="date-text">
+												<a href="news-single.html">June 16th，2018</a>
+												<p>Gold Coach Training Camp</p>
+											</div>
+											<div class="date-text">
+												<a href="news-single.html">June 25th，2018 <span class="blinking"></span></a>
+												<p>Dual nunchaku landing training - Taiyuan Special Event</p>
+											</div>
+											<div class="date-text">
+												<a href="news-single.html">November 27th，2018</a>
+												<p>Today, let's watch Bruce Lee play a nunchaku again!</p>
+											</div>
+											<div class="date-text">
+												<a href="news-single.html">November 15th ，2018 <span class="blinking"></span></a>
+												<p>From a worker to a nunchaku champion</p>
+											</div>
+										</div>
+										<script>
+										function blinker() {
+											$('.blinking').fadeOut(500);
+											$('.blinking').fadeIn(500);
+										}
+										setInterval(blinker, 1000);
+										</script>
+										<script>
+											function cycle($item, $cycler){
+												setTimeout(cycle, 2000, $item.next(), $cycler);
+												
+												$item.slideUp(1000,function(){
+													$item.appendTo($cycler).show();        
+												});
+												}
+											cycle($('#cycler div:first'),  $('#cycler'));
+										</script>
+									</div>
+									<!-- //date -->
+								</div>
+							</div>
+						</div>
+						<!-- //news-right-top -->
+						<!-- news-right-bottom -->
+						<div class="news-right-bottom">
+							<div class="wthree-news-right-heading">
+								<h3>Hot news</h3>
+							</div>
+							<div class="news-right-bottom-bg">
+								<div class="news-grids-bottom">
+									<div class="top-news-grid">
+										<div class="top-news-grid-heading">
+											<a href="news-single.html">The 4th Malaysian International Martial Arts Festival was held in Kuala Lumpur, the capital of Malaysia. More than 2,000 martial arts athletes from China, Dubai, the United States, Britain, India, Singapore and other countries participated in the festival. The Chaozhou boy Shedwin won two championships. </a>
+										</div>
+										<div class="w3ls-news-t-grid top-t-grid">
+											<ul>
+												<li><a href="#"><i class="fa fa-clock-o"></i> 1h</a></li>
+												<li><a href="#"><i class="fa fa-user"></i>俞方轩SG</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="top-news-grid">
+										<div class="top-news-grid-heading">
+											<a href="news-single.html">Xie Desheng often organizes public welfare nunchaku teaching activities to inherit Chinese nunchaku culture. </a>
+										</div>
+										<div class="w3ls-news-t-grid top-t-grid">
+											<ul>
+												<li><a href="#"><i class="fa fa-clock-o"></i> 3h</a></li>
+												<li><a href="#"><i class="fa fa-user"></i>吴晓冬SB</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="top-news-grid">
+										<div class="top-news-grid-heading">
+											<a href="news-single.html">In the double truncheon event of the 7th Macao International Wushu Festival, Liu Zhiwei, a post-90s rural fellow from Inner Mongolia, competed with more than 200 competitors in the same field and finally came to the fore. 
+											           All-round champion of M5 (single) and M5 (double). "This is the world champion in martial arts. </a>
+										</div>
+										<div class="w3ls-news-t-grid top-t-grid">
+											<ul>
+												<li><a href="#"><i class="fa fa-clock-o"></i> 3h</a></li>
+												<li><a href="#"><i class="fa fa-user"></i>橘子</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- //news-right-bottom -->
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+<!-- //faq-banner -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3ls_footer_grid">
+				<div class="col-md-6 w3ls_footer_grid_left">
+					<div class="w3ls_footer_grid_left1">
+						<h2>To our opinion </h2>
+						<div class="w3ls_footer_grid_left1_pos">
+							<form action="#" method="post">
+								<input type="email" name="email" placeholder="意见" required="">
+								<input type="submit" value="发送">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls_footer_grid_right">
+					<a href="index.html"><h2>一圈<span>一线</span></h2></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-5 w3ls_footer_grid1_left">
+				<p>Copyright &copy; 2018.一圈一线 干杯~pikapika.</p>
+			</div>
+			<div class="col-md-7 w3ls_footer_grid1_right">
+				<ul>
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Copyright notice </a>
+					</li>
+					<li>
+						<a href="#">Friendship link </a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

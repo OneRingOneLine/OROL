@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>媒体关注</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/faqstyle.css" type="text/css" media="all" />
+<link href="css/single.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/contactstyle.css" type="text/css" media="all" />
+<!-- news-css -->
+<link rel="stylesheet" href="news-css/news.css" type="text/css" media="all" />
+<!-- //news-css -->
+<!-- list-css -->
+<link rel="stylesheet" href="list-css/list.css" type="text/css" media="all" />
+<!-- //list-css -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!---<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>--->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="w3layouts_logo">
+				<a href="index.html"><h1>一圈<span>一线</span></h1></a>
+			</div>
+			<div class="w3_search">
+				<form action="#" method="post">
+					<input type="text" name="搜索" placeholder="搜索" required="">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+			<div class="w3l_sign_in_register">
+				<ul>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>13517088684</li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal">登陆</a></li>
+				</ul>
+			</div>
+			<div class="nav-con fl">
+				<ul>
+						<li report-id="playpage_huahua" class="nav-item hbili">
+							<a id="lbtExit" href="news.html" style="text-decoration:underline;">中文</a></li>
+						<li report-id="Webtab_click_audio" class="nav-item mbili">
+							<a id="lbtExit" href="newsE.html" style="text-decoration:underline;">English</a></li>
+						<li report-id="playpage_game" class="nav-item game">
+							<a id="lbtExit" href="newsJ.html" style="text-decoration:underline;">日本語</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					登陆 & 注册
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="w3_login_module">
+							<div class="module form-module">
+								<div class="toggle"><i class="fa fa-times fa-pencil"></i>
+								<div class="tooltip">点击我吧</div>
+								</div>
+								<div class="form">
+								<h3>登陆到您的账户</h3>
+								<form action="#" method="post">
+									<input type="text" name="Username" placeholder="用户名" required="">
+									<input type="password" name="Password" placeholder="密码" required="">
+									<input type="submit" value="登录 ">
+								</form>
+								</div>
+								<div class="form">
+								<h3>注册一个新账户</h3>
+								<form action="#" method="post">
+									<input type="text" name="Username" placeholder="用户名" required="">
+									<input type="password" name="Password" placeholder="密码" required="">
+									<input type="text" name="Phone" placeholder="手机号码" required="">
+									<input type="submit" value="注册">
+								</form>
+								</div>
+								<div class="cta"><a href="#">忘记密码了?</a></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('.toggle').click(function(){
+		  // Switches the Icon
+		  $(this).children('i').toggleClass('fa-pencil');
+		  // Switches the forms  
+		  $('.form').animate({
+			height: "toggle",
+			'padding-top': 'toggle',
+			'padding-bottom': 'toggle',
+			opacity: "toggle"
+		  }, "slow");
+		});
+	</script>
+<!-- //bootstrap-pop-up -->
+<!-- nav -->
+	<div class="movies_nav">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">切换导航 </span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li class="w3_home_act"><a href="index.html">首页</a></li>
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">棍·视频<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<li>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="onetone.html">舞台表演</a></li>
+												<li><a href="onettwo.html">棍法教学</a></li>
+												<li><a href="onetthree.html">自视频</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</li>
+							<li><a href="news.html">棍·新闻（媒体关注）</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">棍·文化 <b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<li>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="history.html">历史背景</a></li>
+												<li><a href="famous.html">世界名人</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+		</div>
+	</div>
+<!-- //nav -->
+<!-- <div class="general_social_icons">
+	<nav class="social">
+		<ul>
+			<li class="w3_twitter"><a href="#">Twitter <i class="fa fa-twitter"></i></a></li>
+			<li class="w3_facebook"><a href="#">Facebook <i class="fa fa-facebook"></i></a></li>
+			<li class="w3_dribbble"><a href="#">Dribbble <i class="fa fa-dribbble"></i></a></li>
+			<li class="w3_g_plus"><a href="#">Google+ <i class="fa fa-google-plus"></i></a></li>				  
+		</ul>
+  </nav>
+</div> -->
+<!-- faq-banner -->
+	<div class="faq">
+			<div class="container">
+				<div class="agileits-news-top">
+					<ol class="breadcrumb">
+					  <li><a href="index.html">主页</a></li>
+					  <li class="active">棍.新闻（媒体关注）</li>
+					</ol>
+				</div>
+				<div class="agileinfo-news-top-grids">
+					<div class="col-md-8 wthree-top-news-left">
+						<div class="wthree-news-left">
+							<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+								<ul id="myTab" class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active"><a href="#home1" id="home1-tab" role="tab" data-toggle="tab" aria-controls="home1" aria-expanded="true">最新媒体</a></li>
+									<li role="presentation"><a href="#w3bsd" role="tab" id="w3bsd-tab" data-toggle="tab" aria-controls="w3bsd">热门媒体</a></li>
+								</ul>
+								<div id="myTabContent" class="tab-content">
+									<div role="tabpanel" class="tab-pane fade in active" id="home1" aria-labelledby="home1-tab">
+										<div class="wthree-news-top-left">
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-5 wthree-news-img">
+													<a href="news-single.html"><img src="img/n1.jpg" alt="" /></a>
+												</div>
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">漫威打造首部华人英雄电影（使用双节棍？）</a></h5>
+													<p>据Deadline报道，漫威影业正在开发华人英雄——上气(Shang-Chi)的单人电影，上气精通长棍、双节棍等多种武术，
+													        角色设计灵感来源于中国武术家李小龙。电影剧情会与时俱进，“避免一些西方对华人的刻板印象”，漫威也正在寻找亚裔和亚洲导演。</p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 04/12/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">第四届千人考级大会</a></h5>
+													<p>第四届千人考级大会在武汉武钢体育馆成功举办！ 此次到来的嘉宾来自全国各地！ 选手来自世界各地，包括中韩日港澳台。</p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 16/06/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+									</div>
+									<div role="tabpanel" class="tab-pane fade" id="w3bsd" aria-labelledby="w3bsd-tab">
+										<div class="wthree-news-top-left">
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">第 4 届马来西亚国际武术节在马来西亚首都吉隆坡举行</a></h5>
+													<p>来自中国、迪拜、美国，英国、印度、新加坡等国家的 2000 多名武术选手参赛，来自潮州的小伙子谢德胜斩获两项冠军。</p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 04/12/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="col-md-6 w3-agileits-news-left">
+												<div class="col-sm-7 wthree-news-info">
+													<h5><a href="news-single.html">在第七届澳门国际武术节双截棍</a></h5>
+													<p>内蒙古90后农村小伙刘志伟与200余名选手同场竞技，最终脱颖而出，
+											包揽M5(单)、M5(双)两个项目的全能冠军。“这已是武术领域的世界冠军了。</p>
+													<ul>
+														<li><i class="fa fa-clock-o" aria-hidden="true"></i> 16/06/2018</li>
+														<li><i class="fa fa-eye" aria-hidden="true"></i> 2642</li>
+													</ul>
+												</div>
+												<div class="clearfix"> </div>
+											</div>
+											<div class="clearfix"> </div>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 wthree-news-right">
+						<!-- news-right-top -->
+						<div class="news-right-top">
+							<div class="wthree-news-right-heading">
+								<h3>实时新闻</h3>
+							</div>
+							<div class="wthree-news-right-top">
+								<div class="news-grids-bottom">
+									<!-- date -->
+									<div id="design" class="date">
+										<div id="cycler">   
+											<div class="date-text">
+												<a href="news-single.html">6月16日，2018</a>
+												<p>金牌教练集训营</p>
+											</div>
+											<div class="date-text">
+												<a href="news-single.html">6月25，2018 <span class="blinking"></span></a>
+												<p>双节棍落地培训-太原专场</p>
+											</div>
+											<div class="date-text">
+												<a href="news-single.html">11月27日，2018</a>
+												<p>今天，再看李小龙打一次双节棍！</p>
+											</div>
+											<div class="date-text">
+												<a href="news-single.html">11月15日 ，2018 <span class="blinking"></span></a>
+												<p>从打工仔到双节棍冠军 这个饶平小伙不得了</p>
+											</div>
+										</div>
+										<script>
+										function blinker() {
+											$('.blinking').fadeOut(500);
+											$('.blinking').fadeIn(500);
+										}
+										setInterval(blinker, 1000);
+										</script>
+										<script>
+											function cycle($item, $cycler){
+												setTimeout(cycle, 2000, $item.next(), $cycler);
+												
+												$item.slideUp(1000,function(){
+													$item.appendTo($cycler).show();        
+												});
+												}
+											cycle($('#cycler div:first'),  $('#cycler'));
+										</script>
+									</div>
+									<!-- //date -->
+								</div>
+							</div>
+						</div>
+						<!-- //news-right-top -->
+						<!-- news-right-bottom -->
+						<div class="news-right-bottom">
+							<div class="wthree-news-right-heading">
+								<h3>热门新闻</h3>
+							</div>
+							<div class="news-right-bottom-bg">
+								<div class="news-grids-bottom">
+									<div class="top-news-grid">
+										<div class="top-news-grid-heading">
+											<a href="news-single.html">第 4 届马来西亚国际武术节在马来西亚首都吉隆坡举行，来自中国、迪拜、美国，英国、印度、新加坡等国家的 2000 多名武术选手参赛，来自潮州的小伙子谢德胜斩获两项冠军。</a>
+										</div>
+										<div class="w3ls-news-t-grid top-t-grid">
+											<ul>
+												<li><a href="#"><i class="fa fa-clock-o"></i> 1h</a></li>
+												<li><a href="#"><i class="fa fa-user"></i>俞方轩SG</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="top-news-grid">
+										<div class="top-news-grid-heading">
+											<a href="news-single.html">谢德胜经常组织公益性双节棍教学活动，传承中国双节棍文化。</a>
+										</div>
+										<div class="w3ls-news-t-grid top-t-grid">
+											<ul>
+												<li><a href="#"><i class="fa fa-clock-o"></i> 3h</a></li>
+												<li><a href="#"><i class="fa fa-user"></i>吴晓冬SB</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="top-news-grid">
+										<div class="top-news-grid-heading">
+											<a href="news-single.html">在第七届澳门国际武术节双截棍项目中，内蒙古90后农村小伙刘志伟与200余名选手同场竞技，最终脱颖而出，
+											包揽M5(单)、M5(双)两个项目的全能冠军。“这已是武术领域的世界冠军了。</a>
+										</div>
+										<div class="w3ls-news-t-grid top-t-grid">
+											<ul>
+												<li><a href="#"><i class="fa fa-clock-o"></i> 3h</a></li>
+												<li><a href="#"><i class="fa fa-user"></i>橘子</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- //news-right-bottom -->
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+<!-- //faq-banner -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3ls_footer_grid">
+				<div class="col-md-6 w3ls_footer_grid_left">
+					<div class="w3ls_footer_grid_left1">
+						<h2>对于我们的意见</h2>
+						<div class="w3ls_footer_grid_left1_pos">
+							<form action="#" method="post">
+								<input type="email" name="email" placeholder="意见" required="">
+								<input type="submit" value="发送">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls_footer_grid_right">
+					<a href="index.html"><h2>一圈<span>一线</span></h2></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-5 w3ls_footer_grid1_left">
+				<p>Copyright &copy; 2018.一圈一线 干杯~pikapika.</p>
+			</div>
+			<div class="col-md-7 w3ls_footer_grid1_right">
+				<ul>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+					<li>
+						<a href="#">版权声明</a>
+					</li>
+					<li>
+						<a href="#">友情链接</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

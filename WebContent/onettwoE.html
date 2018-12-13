@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Stick·Teaching</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/medile.css" rel='stylesheet' type='text/css' />
+<link href="css/single.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/contactstyle.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/faqstyle.css" type="text/css" media="all" />
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<!-- news-css -->
+<link rel="stylesheet" href="news-css/news.css" type="text/css" media="all" />
+<!-- //news-css -->
+<!-- list-css -->
+<link rel="stylesheet" href="list-css/list.css" type="text/css" media="all" />
+<!-- //list-css -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!---<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>--->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/owl.carousel.js"></script>
+<script>
+	$(document).ready(function() { 
+		$("#owl-demo").owlCarousel({
+	 
+		  autoPlay: 3000, //Set AutoPlay to 3 seconds
+	 
+		  items : 5,
+		  itemsDesktop : [640,5],
+		  itemsDesktopSmall : [414,4]
+	 
+		});
+	 
+	}); 
+</script> 
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="w3layouts_logo">
+				<a href="index.html"><h1>一圈<span>一线</span></h1></a>
+			</div>
+			<div class="w3_search">
+				<form action="#" method="post">
+					<input type="text" name="search" placeholder="search" required="">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+			<div class="w3l_sign_in_register">
+				<ul>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>13517088684</li>
+					<li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+				</ul>
+			</div>
+			<div class="nav-con fl">
+				<ul>
+						<li report-id="playpage_huahua" class="nav-item hbili">
+							<a id="lbtExit" href="onettwo.html" style="text-decoration:underline;">中文</a></li>
+						<li report-id="Webtab_click_audio" class="nav-item mbili">
+							<a id="lbtExit" href="onettwoE.html" style="text-decoration:underline;">English</a></li>
+						<li report-id="playpage_game" class="nav-item game">
+							<a id="lbtExit" href="onettwoJ.html" style="text-decoration:underline;">日本語</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- bootstrap-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					login & register
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+				<section>
+					<div class="modal-body">
+						<div class="w3_login_module">
+							<div class="module form-module">
+							  <div class="toggle"><i class="fa fa-times fa-pencil"></i>
+								<div class="tooltip">click me</div>
+							  </div>
+							  <div class="form">
+								<h3>Login to your account</h3>
+								<form action="#" method="post">
+								  <input type="text" name="Username" placeholder="Username" required="">
+								  <input type="password" name="Password" placeholder="Password" required="">
+								  <input type="submit" value="Login ">
+								</form>
+							  </div>
+							  <div class="form">
+								<h3>Register a new account</h3>
+								<form action="#" method="post">
+								  <input type="text" name="Username" placeholder="Username" required="">
+								  <input type="password" name="Password" placeholder="Password" required="">
+								  <input type="text" name="Phone" placeholder="Phone Number" required="">
+								  <input type="submit" value="Register">
+								</form>
+							  </div>
+							  <div class="cta"><a href="#">Forgot your password? </a></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script>
+		$('.toggle').click(function(){
+		  // Switches the Icon
+		  $(this).children('i').toggleClass('fa-pencil');
+		  // Switches the forms  
+		  $('.form').animate({
+			height: "toggle",
+			'padding-top': 'toggle',
+			'padding-bottom': 'toggle',
+			opacity: "toggle"
+		  }, "slow");
+		});
+	</script>
+<!-- //bootstrap-pop-up -->
+<!-- nav -->
+	<div class="movies_nav">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Switch navigation </span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li class="w3_home_act"><a href="indexE.html">home page</a></li>
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Stick·video<b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<li>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="onetoneE.html">Stage performance</a></li>
+												<li><a href="onettwoE.html">Stick Teaching</a></li>
+												<li><a href="onetthreeE.html">Self video</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</li>
+							<li><a href="newsE.html">Stick·news (media attention)</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Stick·culture <b class="caret"></b></a>
+								<ul class="dropdown-menu multi-column columns-3">
+									<li>
+										<div class="col-sm-4">
+											<ul class="multi-column-dropdown">
+												<li><a href="historyE.html">historical background</a></li>
+												<li><a href="famousE.html">World celebrities</a></li>
+											</ul>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+		</div>
+	</div>
+<!-- //nav -->
+<!-- <div class="general_social_icons">
+	<nav class="social">
+		<ul>
+			<li class="w3_twitter"><a href="#">Twitter <i class="fa fa-twitter"></i></a></li>
+			<li class="w3_facebook"><a href="#">Facebook <i class="fa fa-facebook"></i></a></li>
+			<li class="w3_dribbble"><a href="#">Dribbble <i class="fa fa-dribbble"></i></a></li>
+			<li class="w3_g_plus"><a href="#">Google+ <i class="fa fa-google-plus"></i></a></li>				  
+		</ul>
+  </nav>
+</div> -->
+<!-- /w3l-medile-movies-grids -->
+	<div class="general-agileits-w3l">
+		<div class="w3l-medile-movies-grids">
+
+				<!-- /movie-browse-agile -->
+				
+				      <div class="movie-browse-agile">
+					     <!--/browse-agile-w3ls -->
+						<div class="browse-agile-w3ls general-w3ls">
+								<div class="tittle-head">
+									<h4 class="latest-text">Stick Teaching</h4>
+									<div class="container">
+										<div class="agileits-single-top">
+											<ol class="breadcrumb">
+											  <li><a href="index.html">home page</a></li>
+											  <li class="active">Stick·video</li>
+											</ol>
+										</div>
+									</div>
+								</div>
+								<div class="container">
+									<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+										<!-- <ul id="myTab" class="nav nav-tabs" role="tablist">
+											<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Featured</a></li>
+											<li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Top viewed</a></li>
+											<li role="presentation"><a href="#rating" id="rating-tab" role="tab" data-toggle="tab" aria-controls="rating" aria-expanded="true">Top Rating</a></li>
+											<li role="presentation"><a href="#imdb" role="tab" id="imdb-tab" data-toggle="tab" aria-controls="imdb" aria-expanded="false">Recently Added</a></li>
+										</ul> -->
+										<div id="myTabContent" class="tab-content">
+											<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+												<div class="w3_agile_featured_movies">
+													<div class="col-md-6 w3l-movie-gride-agile">
+														<a href="http://www.sjg8.com/v/2490" class="hvr-shutter-out-horizontal"><img src="img/g1.jpg" title="2.19凌云·权霸-花式双节棍小套路慢镜教学" class="img-responsive" alt=" " />
+															<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+														</a>
+														<div class="mid-1 agileits_w3layouts_mid_1_home">
+															<div class="w3l-movie-text">
+																<h6><a href="http://www.sjg8.com/v/2490">2.19凌云·权霸-花式双节棍小套路慢镜教学</a></h6>							
+															</div>
+															<div class="mid-6 agile_mid_2_home">
+																<p>2016-12-17</p>
+																<div class="clearfix"></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-6 w3l-movie-gride-agile">
+														<a href="http://www.sjg8.com/v/2489" class="hvr-shutter-out-horizontal"><img src="img/g2.jpg" title="6.24凌云棍道小权转棍小练-花式双节棍转棍" class="img-responsive" alt=" "  />
+															<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+														</a>
+														<div class="mid-1 agileits_w3layouts_mid_1_home">
+															<div class="w3l-movie-text">
+																<h6><a href="http://www.sjg8.com/v/2489">6.24凌云棍道小权转棍小练-花式双节棍转棍</a></h6>							
+															</div>
+															<div class="mid-6 agile_mid_2_home">
+																<p>2016-12-17</p>
+																<div class="clearfix"></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-6 w3l-movie-gride-agile">
+														<a href="http://www.sjg8.com/v/2488" class="hvr-shutter-out-horizontal"><img src="img/g3.jpg" title="【凌云棍道】花式双节棍教学之[指间反弹组合]" class="img-responsive" alt=" " />
+															<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+														</a>
+														<div class="mid-1 agileits_w3layouts_mid_1_home">
+															<div class="w3l-movie-text">
+																<h6><a href="http://www.sjg8.com/v/2488">【凌云棍道】花式双节棍教学之[指间反弹组合]</a></h6>							
+															</div>
+															<div class="mid-6 agile_mid_2_home">
+																<p>2016-12-17</p>
+																<div class="clearfix"></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-6 w3l-movie-gride-agile">
+														<a href="http://www.sjg8.com/v/2487" class="hvr-shutter-out-horizontal"><img src="img/g4.jpg" title="凌云棍道花式双节棍教学之双手折叠" class="img-responsive" alt=" " />
+															<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+														</a>
+														<div class="mid-1 agileits_w3layouts_mid_1_home">
+															<div class="w3l-movie-text">
+																<h6><a href="http://www.sjg8.com/v/2487">凌云棍道花式双节棍教学之双手折叠</a></h6>							
+															</div>
+															<div class="mid-6 agile_mid_2_home">
+																<p>2016-12-17</p>
+																<div class="clearfix"></div>
+															</div>
+														</div>
+													</div>
+													<div class="blog-pagenat-wthree">
+														<ul>
+															<li><a class="frist" href="#">first page</a></li>
+															<li><a href="#">1</a></li>
+															<li><a href="#">2</a></li>
+															<li><a href="#">3</a></li>
+															<li><a href="#">4</a></li>
+															<li><a href="#">5</a></li>
+															<li><a class="last" href="#">next page</a></li>
+														</ul>
+													</div>
+												</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!--body wrapper end-->
+					</div>	
+			</div>	
+		</div>
+	<!-- //w3l-medile-movies-grids -->
+	</div>
+	<!-- //comedy-w3l-agileits -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3ls_footer_grid">
+				<div class="col-md-6 w3ls_footer_grid_left">
+					<div class="w3ls_footer_grid_left1">
+						<h2>For our opinion</h2>
+						<div class="w3ls_footer_grid_left1_pos">
+							<form action="#" method="post">
+								<input type="email" name="email" placeholder="Opinion" required="">
+								<input type="submit" value="Send out">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls_footer_grid_right">
+					<a href="index.html"><h2>Onering<span>Oneline</span></h2></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-5 w3ls_footer_grid1_left">
+				<p>Copyright &copy; 2018.OneRingOneLine Cheers!~pikapika.</p>
+			</div>
+			<div class="col-md-7 w3ls_footer_grid1_right">
+				<ul>
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">Copyright declaration</a>
+					</li>
+					<li>
+						<a href="#">Friendship link</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
